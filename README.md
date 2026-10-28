@@ -19,11 +19,11 @@ relationship between age and salary.
 5. Does pay increase with age?
 
 ## Dataset
-Employee dataset (`Employees_raw_data.csv`), 308 rows and 8 columns: name, 
+Employee dataset , 308 rows and 8 columns: name, 
 department, join date, salary, age, performance rating, city, and remote work status. 
 Salary currency is not specified in the source.
 
-## Data Cleaning
+## Data Cleaning with Excel
 - Removed 8 exact duplicate rows (308 to 300 employees).
 - Standardized department names (e.g. ENGINEERING and Engineering became Engineering).
 - Standardized remote work to Yes/No (e.g. yes, YES, and Yes became Yes).
@@ -76,3 +76,4 @@ Salary currency is not specified in the source.
 
 ## Tools Used
 Tableau Public
+Excel for cleaning data
